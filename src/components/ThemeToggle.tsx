@@ -1,9 +1,9 @@
-import { DropdownMenu } from "@/components/ui/dropdown-menu";
 import {
-  DropdownMenuContent,
+  DropdownMenu,
   DropdownMenuItem,
+  DropdownMenuContent,
   DropdownMenuTrigger,
-} from "@radix-ui/react-dropdown-menu";
+} from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
