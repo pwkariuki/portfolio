@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-code: "Source Code Pro", "monospace";
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

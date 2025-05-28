@@ -1,13 +1,10 @@
-import { Footer } from "@/layout/footer";
-import { ThemeToggle } from "./components/ThemeToggle";
+import { Footer } from "@/layout/Footer";
+import { Header } from "./layout/Header";
 
 const App = () => {
   return (
     <>
-      <div className="flex justify-center">
-        <ThemeToggle />
-      </div>
-
+      <Header />
       <Footer />
     </>
   );
