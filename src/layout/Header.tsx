@@ -12,14 +12,26 @@ export const Header = () => {
         <div className="flex items-center gap-x-8">
           <nav className="hidden md:flex items-center gap-x-8 font-code">
             <a href="#about" className="hover:text-primary transition-colors">
-            About
-          </a>
-          <a href="#experience" className="hover:text-primary transition-colors">
-            Experience
-          </a>
-          <a href="#projects" className="hover:text-primary transition-colors">
-            Projects
-          </a>
+              About
+            </a>
+            <a
+              href="#experience"
+              className="hover:text-primary transition-colors"
+            >
+              Experience
+            </a>
+            <a
+              href="#projects"
+              className="hover:text-primary transition-colors"
+            >
+              Projects
+            </a>
+            <a
+              href="/Patrick_Kariuki_Resume.pdf"
+              className="hover:text-primary transition-colors"
+            >
+              Resume
+            </a>
           </nav>
           <ThemeToggle />
         </div>
