@@ -12,3 +12,12 @@ export type ProjectType = {
 export type ProjectCardProps = {
   project: ProjectType;
 };
+
+export type ExperienceType = {
+  id: string;
+  company: string;
+  role: string;
+  startDate: string;
+  endDate: string;
+  achievements: string[];
+};

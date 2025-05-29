@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "./ui/badge";
-import { GitHubLogo } from "./GitHubLogo";
-import { ArrowRight } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { GitHubLogo } from "@/components/GitHubLogo";
+import { Globe } from "lucide-react";
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
@@ -49,7 +49,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <ArrowRight className="h-5 w-5" />
+              <Globe className="h-5 w-5" />
               <span className="sr-only">Project Link</span>
             </a>
           )}

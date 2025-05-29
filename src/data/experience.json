@@ -1,0 +1,27 @@
+[
+  {
+    "id": "JHU",
+    "company": "Johns Hopkins University",
+    "role": "Course Assistant",
+    "startDate": "August 2024",
+    "endDate": "Present",
+    "achievements": [
+      "Mentored Intermediate Programming students with focus in object-oriented programming with C++ and supported learning through office hours.",
+      "Served as project manager for team of six students in Practical Generative AI course, guiding development of an applied half-semester project with structured check-ins and feedback cycles.",
+      "Coordinated study resources and streamlined grading processes in collaboration with faculty and teaching assistants."
+    ]
+  },
+  {
+    "id": "SEO",
+    "company": "Sponsors for Educational Opportunity (SEO)",
+    "role": "Tech Developer Intern",
+    "startDate": "May 2024",
+    "endDate": "August 2024",
+    "achievements": [
+      "Developed StarSight, a full-stack web application that provides real-time stargazing predictions by integrating weather data, light pollution APIs, and astronomical databases.",
+      "Built scalable Flask backend with RESTful API endpoints, implementing JWT authentication, secure session management, and PostgreSQL database integration for user preferences and location data.",
+      "Trained constellation recognition model using Principal Component Analysis on astronomical datasets allowing users to upload night sky images and receive constellation prediction with ~87% accuracy.",
+      "Automated deployment pipeline using Ansible for configuration management and Docker containers, enabling consistent deployments across development and production environments."
+    ]
+  }
+]
