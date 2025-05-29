@@ -35,7 +35,7 @@ export const ThemeToggle = () => {
           <span className="sr-only">Toggle Theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => setTheme("theme-light")}>
           Light
         </DropdownMenuItem>

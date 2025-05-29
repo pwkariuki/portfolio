@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Studia",
+    "description": "Full-stack AI-powered study assistant that generates adaptive explanations, quizzes, and flashcards. Features vector search using OpenAI embeddings to retrieve content from Wikipedia and YouTube, with multi-modal accessibility including file uploads, speech-to-text, and text-to-speech.",
+    "technologies": ["React", "Python", "Flask", "MongoDB", "OpenAI API"],
+    "github": "",
+    "live": "https://studia-self.vercel.app/",
+    "year": "2025"
+  },
+  {
+    "name": "Ask Breezy",
+    "description": "Conversational chatbot that queries AccuWeather API to provide location-based weather conditions using AI tool calls ennabling users to get weather information through natural language interactions.",
+    "technologies": ["React", "Vercel AI SDK", "Convex"],
+    "github": "",
+    "live": "https://ask-breezy.netlify.app/",
+    "year": "2025"
+  },
+  {
+    "name": "Flashcard App",
+    "description": "Full-stack flashcard application with user authentication, deck management, and interactive study features.",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "SQLite",
+      "Hono.js",
+      "Lucia Auth",
+      "Drizzle ORM",
+      "Docker"
+    ],
+    "github": "https://github.com/pwkariuki/flashcard-app",
+    "live": "",
+    "year": "2024"
+  },
+  {
+    "name": "Portfolio Website",
+    "description": "Personal portfolio website showcasing projects and skills.",
+    "technologies": ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    "github": "https://github.com/pwkariuki/portfolio",
+    "live": "https://patrick-kariuki-dev.vercel.app/",
+    "year": "2025"
+  },
+  {
+    "name": "LeetScribe",
+    "description": "A Chrome extension that automatically captures LeetCode solutions and generates structured UMPIRE-format notes using AI. It syncs solutions and documentation to GitHub, helping developers maintain organized records of their problem-solving journey. Features include AI-powered documentation generation, GitHub integration, and optional Notion sync.",
+    "technologies": [
+      "React",
+      "Vite",
+      "Chrome Extension API",
+      "Convex",
+      "OpenAI API",
+      "GitHub API",
+      "Notion API",
+      "OAuth"
+    ],
+    "github": "",
+    "live": "",
+    "year": "2025"
+  }
+]

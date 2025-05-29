@@ -15,7 +15,7 @@ export const Footer = () => {
               <GitHubLogo className="h-5 w-5" />
               <span className="sr-only">View source code on GitHub</span>
             </a>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm font-code text-muted-foreground">
               &copy; {new Date().getFullYear()} Patrick Kariuki. All rights
               reserved.
             </p>
