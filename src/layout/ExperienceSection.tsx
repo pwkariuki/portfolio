@@ -10,7 +10,7 @@ export const ExperienceSection = () => {
   return (
     <section id="experience" className="max-w-6xl mx-auto px-4 py-10 border-t">
       <h2 className="text-2xl font-code font-bold mb-8">Experience</h2>
-      
+      {/* Company tab list */}
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-1/3">
           <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible">
@@ -38,7 +38,9 @@ export const ExperienceSection = () => {
             <div>
               <h3 className="text-xl font-semibold font-code">
                 {experience.role}{" "}
-                <span className="text-primary font-code">@ {experience.company}</span>
+                <span className="text-primary font-code">
+                  @ {experience.company}
+                </span>
               </h3>
               <p className="text-muted-foreground font-code text-sm mt-1">
                 {experience.startDate} - {experience.endDate}
@@ -46,14 +48,17 @@ export const ExperienceSection = () => {
             </div>
 
             <div className="space-y-4">
-              {experience.achievements.filter(achievement => achievement.trim()).map((achievement, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <span className="text-primary mt-1.5 text-2xl">▸</span>
-                  <p className="text-muted-foreground font-code leading-relaxed">
-                    {achievement.trim()}{achievement.endsWith('.') ? '' : '.'}
-                  </p>
-                </div>
-              ))}
+              {experience.achievements
+                .filter((achievement) => achievement.trim())
+                .map((achievement, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-primary mt-1.5 text-2xl">▸</span>
+                    <p className="text-muted-foreground font-code leading-relaxed">
+                      {achievement.trim()}
+                      {achievement.endsWith(".") ? "" : "."}
+                    </p>
+                  </div>
+                ))}
             </div>
           </div>
         </div>
