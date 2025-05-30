@@ -85,15 +85,6 @@ export const Hero = () => {
               <SiLeetcode size={24} />
             </a>
           </div>
-
-          <div className="pt-4">
-            <a
-              href="#projects"
-              className="inline-flex items-center px-8 py-4 bg-transparent border border-primary text-primary hover:bg-primary/10 transition-colors font-code text-sm tracking-wide"
-            >
-              View My Work
-            </a>
-          </div>
         </div>
 
         {/* Image */}
