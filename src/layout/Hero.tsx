@@ -17,7 +17,7 @@ export const Hero = () => {
           </h1>
 
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-muted-foreground leading-tight">
-            I build software for the web.
+            I build software for web and mobile.
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
@@ -32,11 +32,11 @@ export const Hero = () => {
             </p>
             <div className="grid grid-cols-2 gap-2 text-sm font-code">
               {[
-                "JavaScript (ES6+)",
-                "React",
-                "Node.js",
                 "TypeScript",
+                "React",
+                "Swift",
                 "Python",
+                "Vercel AI SDK",
                 "PostgreSQL",
               ].map((tech) => (
                 <div key={tech} className="flex items-center gap-2">
@@ -96,7 +96,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Right Content: Your Image */}
+        {/* Image */}
         <div className="flex justify-center lg:justify-end">
           <img
             src="/headshot.jpeg"
