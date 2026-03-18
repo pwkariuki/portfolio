@@ -1,5 +1,54 @@
 [
   {
+    "name": "SDB",
+    "description": "x86-64 debugger implementation supporting breakpoints, stack unwinding, and source-level stepping. Built using ptrace system calls for process control and DWARF parser for reading debug information from binaries.",
+    "technologies": ["C++", "DWARF", "ptrace", "Linux", "Docker"],
+    "github": "https://github.com/pwkariuki/sdb",
+    "live": "",
+    "year": "2026"
+  },
+  {
+    "name": "2D Game Engine",
+    "description": "Component-based game engine built from scratch featuring entity-component-system (ECS) architecture, collision detection and resolution, render layers, sprite system, generalized animation framework, and custom memory allocators. Designed for building 2D games with Lua scripting support.",
+    "technologies": ["C++", "Raylib", "OpenGL", "Lua"],
+    "github": "https://github.com/pwkariuki/gepf-project",
+    "live": "",
+    "year": "2026"
+  },
+  {
+    "name": "GoCI",
+    "description": "Lightweight command-line continuous integration tool for Go projects. Automates build processes, runs tests, checks code formatting, and handles git push workflows. Actively used for personal project deployment automation.",
+    "technologies": ["Go", "Git"],
+    "github": "https://github.com/pwkariuki/goci",
+    "live": "",
+    "year": "2026"
+  },
+  {
+    "name": "LeetScribe",
+    "description": "Chrome extension that automatically captures LeetCode solutions and generates structured UMPIRE-format notes using AI. Syncs solutions and documentation to GitHub, helping developers maintain organized records of their problem-solving journey. Features AI-powered documentation generation, GitHub integration, and optional Notion sync.",
+    "technologies": [
+      "React",
+      "Vite",
+      "Chrome Extension API",
+      "Convex",
+      "OpenAI API",
+      "GitHub API",
+      "Notion API",
+      "OAuth"
+    ],
+    "github": "",
+    "live": "",
+    "year": "2025"
+  },
+  {
+    "name": "StarSight",
+    "description": "Full-stack stargazing prediction platform integrating real-time weather data, light pollution metrics, and astronomical databases to provide location-based visibility forecasts. Features constellation recognition using machine learning trained on 10,000+ astronomical images with 85% accuracy.",
+    "technologies": ["Python", "Flask", "React", "PostgreSQL", "Docker", "Ansible", "OpenAI API"],
+    "github": "https://github.com/pwkariuki/StarSight-Project",
+    "live": "",
+    "year": "2024"
+  },
+  {
     "name": "Studia",
     "description": "Full-stack AI-powered study assistant that generates adaptive explanations, quizzes, and flashcards. Features vector search using OpenAI embeddings to retrieve content from Wikipedia and YouTube, with multi-modal accessibility including file uploads, speech-to-text, and text-to-speech.",
     "technologies": ["React", "Python", "Flask", "MongoDB", "OpenAI API"],
@@ -9,7 +58,7 @@
   },
   {
     "name": "Ask Breezy",
-    "description": "Conversational chatbot that queries AccuWeather API to provide location-based weather conditions using AI tool calls ennabling users to get weather information through natural language interactions.",
+    "description": "Conversational chatbot that queries AccuWeather API to provide location-based weather conditions using AI tool calls, enabling users to get weather information through natural language interactions.",
     "technologies": ["React", "Vercel AI SDK", "Convex"],
     "github": "",
     "live": "https://ask-breezy.netlify.app/",
@@ -37,23 +86,6 @@
     "technologies": ["React", "TypeScript", "Tailwind CSS", "Vite"],
     "github": "https://github.com/pwkariuki/portfolio",
     "live": "https://patrick-kariuki-dev.vercel.app/",
-    "year": "2025"
-  },
-  {
-    "name": "LeetScribe",
-    "description": "A Chrome extension that automatically captures LeetCode solutions and generates structured UMPIRE-format notes using AI. It syncs solutions and documentation to GitHub, helping developers maintain organized records of their problem-solving journey. Features include AI-powered documentation generation, GitHub integration, and optional Notion sync.",
-    "technologies": [
-      "React",
-      "Vite",
-      "Chrome Extension API",
-      "Convex",
-      "OpenAI API",
-      "GitHub API",
-      "Notion API",
-      "OAuth"
-    ],
-    "github": "",
-    "live": "",
     "year": "2025"
   }
 ]
