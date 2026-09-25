@@ -1,4 +1,12 @@
 [
+    {
+    "name": "Applications Tracker",
+    "description": "Full-stack job applications tracker with an AI email pipeline that keeps itself up to date. Authenticates to Gmail via OAuth 2.0, parses MIME messages, and classifies application emails, auto-advancing statuses on high-confidence matches and routing ambiguous ones to a human-review queue.",
+    "technologies": ["React", "TypeScript", "Convex", "TanStack", "Vercel AI SDK", "Tailwind"],
+    "github": "https://github.com/pwkariuki/applications-tracker",
+    "live": "https://applications-tracker-site.vercel.app/",
+    "year": "2026"
+  },
   {
     "name": "SDB",
     "description": "x86-64 debugger implementation supporting breakpoints, stack unwinding, and source-level stepping. Built using ptrace system calls for process control and DWARF parser for reading debug information from binaries.",
